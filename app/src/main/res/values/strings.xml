@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">project</string>
+    <string name="email_hint">Enter your email</string>
+    <string name="password_hint">Enter your password</string>
+    <string name="login">Log In</string>
+    <string name="sign_up_text">Log In</string>
+</resources>

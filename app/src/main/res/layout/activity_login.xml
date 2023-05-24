@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:layout_centerInParent="true">
+
+    <TextView
+        android:id="@+id/sign_up_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:text="@string/sign_up_text"
+        android:textSize="50sp"
+        android:textColor="#000000"
+        android:backgroundTint="#000000"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/email_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sign_up_text_view"
+        android:layout_marginTop="48dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:padding="16dp"
+        android:hint="@string/email_hint"
+        android:textSize="20sp"
+        android:textColor="#aaaaaa"
+        android:inputType="textEmailAddress"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:id="@+id/password_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email_field"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:padding="16dp"
+        android:hint="@string/password_hint"
+        android:textSize="20sp"
+        android:textColor="#aaaaaa"
+        android:inputType="textPassword"
+        android:textStyle="italic"/>
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password_field"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="로그인"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:backgroundTint="#000000"
+        android:textStyle="normal"/>
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_button"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="회원가입"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:backgroundTint="#000000"
+        android:textStyle="normal"/>
+
+</RelativeLayout>
+
