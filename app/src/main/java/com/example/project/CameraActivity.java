@@ -1,5 +1,6 @@
 package com.example.project;
 
+import android.app.AppComponentFactory;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -12,7 +13,7 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
+
 
     public class CameraActivity extends ListActivity {
         private WebView mwebView;
